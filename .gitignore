@@ -1,6 +1,9 @@
-p1/hdma-wi-2021.*
-**/test.json
+# ignore tester script, since it's copied to every folder
 **/tester.py
+**/test.json
+
+# Project one ignores (large files)
+p1/hdma-wi-2021.*
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
