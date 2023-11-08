@@ -1,3 +1,7 @@
+p1/hdma-wi-2021.*
+**/test.json
+**/tester.py
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
