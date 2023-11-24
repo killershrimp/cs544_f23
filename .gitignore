@@ -2,6 +2,8 @@
 **/tester.py
 **/test.json
 
+*.csv
+
 # Project one ignores (large files)
 p1/hdma-wi-2021.*
 
