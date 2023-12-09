@@ -29,6 +29,7 @@ services:
     spark-boss:
         image: p5-boss
         hostname: boss
+        command: tail -F garbage
         deploy:
             resources:
                 limits:
@@ -36,6 +37,7 @@ services:
 
     spark-worker:
         image: p5-worker
+        command: tail -F anything
         deploy:
             replicas: 2
             resources:
